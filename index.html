@@ -36,6 +36,14 @@
       padding: 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -52,7 +60,10 @@
   <main>
    <div class="image-container">
     <h1>ai image</h1>
+    <picture>
+    <source srcset="ai image.webp" type="image/webp">
     <img src="./ai image.webp" alt="code image" />
+    </picture>
     <p>
       <strong>ai image.webp</strong>
     </p>
